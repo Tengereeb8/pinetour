@@ -345,10 +345,13 @@
   background-image: url(4.png);
   background-size: cover;
 }
-.pro-overlay:hover .photo {
+.pro-overlay:hover + .photo {
   border: white 2px;
   border-radius: 120px;
   display: block;
+  top: 110%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .pro-overlay {
   width: 513px;
@@ -356,7 +359,7 @@
 }
 .photo {
   position: absolute;
-  background-image: url(Frame\ 176.png);
+  background-image: url(frame1.png);
   background-size: cover;
   display: none;
 }
