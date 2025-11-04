@@ -61,7 +61,7 @@
   box-shadow: -8px -8px 0px 0px #1f72aa75;
   justify-content: center;
   align-items: center;
-  font-size: 37px;
+  font-size: 15px;
   color: white;
   padding: 40px;
 }
@@ -128,11 +128,11 @@
   background-color: #eee9d9;
   border-radius: 120px;
   display: flex;
-  align-items: start;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   padding-left: 20px;
   position: relative;
+  /* justify-content: space-between; */
 }
 .des {
   width: 1442;
@@ -164,9 +164,8 @@
   height: 112px;
   border-radius: 120px;
   display: flex;
-  align-items: start;
-  justify-content: center;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   padding-left: 20px;
   position: relative;
 }
@@ -176,9 +175,8 @@
   border-radius: 120px;
   background-color: #aad8d7;
   display: flex;
-  align-items: start;
-  justify-content: center;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   padding-left: 20px;
   position: relative;
 }
@@ -188,9 +186,8 @@
   border-radius: 120px;
   background-color: #8bc0bd;
   display: flex;
-  align-items: start;
-  justify-content: center;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   padding-left: 20px;
   position: relative;
 }
@@ -200,9 +197,8 @@
   border-radius: 120px;
   background-color: #97cce0;
   display: flex;
-  align-items: start;
-  justify-content: center;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   padding-left: 20px;
   position: relative;
 }
@@ -346,20 +342,39 @@
   background-size: cover;
 }
 .pro-overlay:hover + .photo {
-  border: white 2px;
   border-radius: 120px;
   display: block;
   top: 110%;
   left: 50%;
   transform: translateX(-50%);
 }
-.pro-overlay {
-  width: 513px;
-  position: relative;
+.pro-overlay:hover {
+  border: white 4px solid;
 }
 .photo {
   position: absolute;
   background-image: url(frame1.png);
   background-size: cover;
   display: none;
+}
+.day1 {
+  border-radius: 50%;
+  background-color: white;
+  width: 52px;
+  height: 48px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.annoying {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  /* flex-direction: column; */
+  padding-right: 20px;
+}
+.icontoi {
+  display: flex;
+  flex-direction: row;
 }
