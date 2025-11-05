@@ -10,6 +10,7 @@
   background-image: url(HeroImage.png);
   width: 1440px;
   height: 773px;
+  margin: 0 auto;
 }
 .logo {
   display: flex;
@@ -40,6 +41,7 @@
   left: 411px;
 }
 .loc {
+  margin: 0 auto;
   background-image: url(loc.png);
   width: 1440px;
   height: 773px;
@@ -66,7 +68,7 @@
   color: white;
   /* padding: 40px; */
   position: relative;
-  gap: 40px;
+  gap: 40gitpx;
   padding-right: 200px;
 }
 /* .overlay {
@@ -137,6 +139,7 @@
   background: #ffffffcc;
 }
 .road {
+  margin: 0 auto;
   background-image: url(road.png);
   width: 1440px;
   display: flex;
@@ -225,6 +228,7 @@
   padding-left: 20px;
 }
 .foo {
+  margin: 0 auto;
   background-image: url(footer.png);
   width: 1440px;
   height: 1120px;
