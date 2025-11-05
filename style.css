@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  /* margin-left: 100px; */
 }
 
 .head {
@@ -53,8 +54,8 @@
   height: 370px;
   border-radius: 40px;
   opacity: 1;
-  top: 65px;
-  left: 109.02px;
+  /* top: 65px;
+  left: 109.02px; */
   flex-direction: column;
   padding: 10px;
   box-shadow: 8px 8px 0px 0px #29728b40;
