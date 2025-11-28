@@ -122,24 +122,32 @@
   background-image: url(1.png);
   background-size: cover;
   background-position: center;
+  font-size:37px;
+  font-weight:400;
 }
 
 .amarbayas {
   background-image: url(2.png);
   background-size: cover;
   background-position: center;
+  font-size:37px;
+  font-weight:400;
 }
 
 .khuvsgul {
   background-image: url(3.png);
   background-size: cover;
   background-position: center;
+  font-size:37px;
+  font-weight:400;
 }
 
 .khorgo {
   background-image: url(4.png);
   background-size: cover;
   background-position: center;
+  font-size:37px;
+  font-weight:400;
 }
 
 /* ROAD SECTION */
